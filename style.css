@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  background: linear-gradient(#5fdad9, #3bb3e3, #00d4ff);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.container {
+  margin-top: 100px;
+}
+h1 {
+  font-size: 56px;
+  margin-bottom: 24px;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 60px;
+}
+#inputbox {
+  font-size: 24px;
+  padding: 12px 16px;
+  outline: none;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: none;
+}
+#inputbox::placeholder {
+  color: #464242;
+}
+button {
+  font-size: 24px;
+}
+.todocontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 16px;
+  margin: 24px 0;
+}
+button {
+  padding: 12px 16px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 4px;
+  width: 60px;
+}
+.btn {
+  background-color: #763dca;
+}
+.btn:hover {
+  background-color: #614093;
+}
+.todoclass {
+  border: none;
+  border-radius: 5px;
+}
+.tick {
+  background-color: green;
+}
+.close {
+  background-color: rgb(231, 76, 60);
+}
